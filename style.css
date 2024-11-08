@@ -1,0 +1,646 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.bg-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://technext.github.io/live-doc/v1.0.0/assets/img/gallery/hero-bg.png);
+    /* background-size: c; */
+}
+header{
+    padding: 16px;
+    max-height: 80px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: transparent;
+    /* justify-content: center;
+    align-items: center; */
+}
+.fake-header{
+    max-height: 80px;
+    width: 100%;
+    /* background-image: url(https://technext.github.io/live-doc/v1.0.0/assets/img/gallery/hero-bg.png); */
+}
+.header-items{
+    display: flex;
+    margin: 0px 48px;
+    padding: 0px 16px;
+    height: 50px;
+    padding-left: 100px;
+}
+.live-img:hover{
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left: 250px;
+    height: 100%;
+    width: 700px;
+    color: #283779;
+}
+.list-items{
+    margin: 0px 8px;
+    padding: 8px;
+    color: #283779;
+    font-size: 16px;
+    font-weight: lighter;
+    
+}
+.nav-a{
+    text-decoration: none;
+}
+.nav-a:active{
+    text-decoration: none;
+}
+.list-items a{
+    text-decoration: underline none;
+}
+.sign-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #283779;
+    border: solid black 1px;
+    border-radius: 40px;
+    padding: 12.4px 24px;
+    font-weight: bolder;
+}
+.sign-in:hover{
+    background-color:#283779;
+    color: white;
+    cursor: pointer;
+}
+main{
+    height: 90%;
+    width: 100%;
+}
+.page1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.main-heading{
+    max-width: 630px;
+    height: 730px;
+    padding: 64px 16px;
+    margin-left: 120px;
+    margin-top: 100px;
+    font-size: 65px;
+    font-weight: bolder;
+    color: #283779;
+}
+.main-container{
+    max-width: 630px;
+    height: 730px;
+    padding: 64px 16px;
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.main-img{
+    width: 538px;
+    height: 468px;
+}
+.main-msg{
+    margin: 0px 0px 48px;
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: lighter;
+    color: #1B71A1;
+}
+.main-appointment{
+    width: 270px;
+    height: 56px;
+    font-size: 16px;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #283779;
+    color: white;
+}
+.main-appointment:hover{
+    cursor: pointer;
+}
+
+.eye-care{
+    margin-top: 250px;
+    max-width: 100%;
+    
+    background-color: #1B71A1;
+    display: flex;
+    padding: 100px 150px;
+}
+.eye-img img{
+    object-fit: contain;
+    width: 430px;
+    height: 330px;
+    padding: 0px 10px;
+
+}
+.bold-text{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 33px;
+    max-width: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800; 
+}
+.eye-msg{
+    max-width: 500px;
+    margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.learn-more{
+    max-width: 500px;
+    margin-left: 30px;
+    max-height: 90px;
+    padding: 16px 0px;
+   
+
+}
+.eye-learn-more{
+    width: 195px;
+    height: 57px;
+    font-size: 19px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+}
+.our-doctors{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* display: flex; */
+    text-align: center;
+    font-size:55px;
+    font-weight: 500;
+}
+
+.doctors{
+    margin: 20px 350px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-doc{
+    width: 231px;
+    max-height: 425px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 48px 16px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 
+              0 20px 25px rgba(0, 0, 0, 0.2), 
+              0 40px 60px rgba(0, 0, 0, 0.02);
+
+}
+.doc-name{
+    font-size: 20px;
+    padding: 16px 0px 8px;
+    color: #283779;
+    font-weight: 900;
+}
+.doc-degree{
+    color: #1B71A1;
+}
+.doc-info{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: rgb(161, 151, 151);
+}
+.view-profile{
+    /* background-color: salmon; */
+    width: 170px;
+    height: 53px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1B71A1;
+    border-radius: 50px;
+    color: #1B71A1;
+    font-size: 18px;
+    font-weight: 500;
+}
+.view-profile:hover{
+    cursor: pointer;
+    background-color: #283779;
+    color: white;
+}
+.appointment{
+    width: 100%;
+    max-height: 180px;
+    padding: 48px 0px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    color: #283779;
+}
+.appointment-form-container{
+    max-width: 100%;
+    max-height: 700px;
+    padding: 120px 0px;
+    display: flex;
+    padding: 60px 200px;
+}
+.appointment-img{
+    width: 500px;
+    height: 370px;
+}
+.first-row{
+    display: flex;
+    /* max-width: 200px;
+    max-height: 60px; */
+    margin-left: 40px;
+    margin-bottom: 20px;
+ 
+}
+.appointment-box{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #afbcce;
+    border-radius: 25px;
+    margin-right: 20px;
+    background-color: transparent;
+    /* color: gainsboro; */
+}
+#massage{
+    height: 200px;
+    width: 560px;
+}
+.appointment-box:focus{
+    border-color: #1B71A1;
+    background-color: #f6f9fe;
+}
+.submit-appointment{
+    margin-left: 50px;
+    width: 560px;
+    height: 55px;
+    border-radius: 50px;
+    border: none;
+    background-color: #283779;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.submit-appointment:hover{
+    cursor: pointer;
+    background-color: #1c2c71;
+}
+footer{
+    max-height: 350px;
+    width: 100%;
+    padding: 120px 0px;
+    background-color: #283779;
+    display: flex;
+}
+.footer-head{
+    margin-left: 150px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+.footer-info{
+    margin-top: 50px;
+    color: white;
+    margin-left: 150px;
+    width: 500px;
+}
+.footer-logo{
+    transform: translate(400px);
+}
+.last{
+    transform: translate(400px);
+    color: white;
+    margin-top: 10px;
+}
+.hidden {
+    display: none;
+}
+.register-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    z-index: 1000;
+    border: 1px solid #e0e0e0;
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.register-input {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.register-input:focus {
+    border-color: #1B71A1;
+    outline: none;
+    box-shadow: 0 0 5px rgba(27, 113, 161, 0.2);
+}
+
+.register-submit {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #1B71A1;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.register-submit:hover {
+    background-color: #155a8a;
+}
+
+.register-submit:active {
+    transform: scale(0.98);
+}
+
+#register-message {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+/* Modern Sign-In Form Styles */
+.sign-in-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    z-index: 1000;
+    border: 1px solid #e0e0e0;
+}
+
+.sign-in-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.sign-in-input {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.sign-in-input:focus {
+    border-color: #1B71A1;
+    outline: none;
+    box-shadow: 0 0 5px rgba(27, 113, 161, 0.2);
+}
+
+.sign-in-submit {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #1B71A1;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.sign-in-submit:hover {
+    background-color: #155a8a;
+}
+
+.sign-in-submit:active {
+    transform: scale(0.98);
+}
+
+#login-message {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+#register-message {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#register-message.error {
+    color: red;
+}
+#login-message {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#login-message.success {
+    color: green;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
+#login-message.error {
+    color: red;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+
+/* Style for contact info, similar to register form */
+.contact-container {
+    background-color: #fff;
+    padding: 20px;
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto; /* Horizontally center */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: fixed; /* Make it fixed in the center of the viewport */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for exact centering */
+    z-index: 1000; /* Make sure it appears above other content */
+    display: none; /* Hidden initially */
+}
+
+/* Styling the contact list */
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    padding: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.contact-container h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.nav-a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.nav-a:hover {
+    color: #0056b3;
+}
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Ensure the container shows up properly on top */
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+.help-container {
+    margin: 20px auto; /* Center the help section */
+    padding: 20px;     /* Add padding */
+    max-width: 600px;  /* Maximum width for better readability */
+    border: 1px solid #ccc; /* Light border for separation */
+    border-radius: 8px; /* Slightly rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.help-container h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Darker text color */
+}
+
+.help-container ol {
+    padding-left: 20px; /* Indent the ordered list */
+}
+
+.help-container li {
+    margin: 10px 0; /* Space between list items */
+    color: #555; /* Dark gray for the text */
+}
+/* Help container to be centered */
+.help-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none; /* Initially hidden */
+    z-index: 1000; /* To make sure it appears above other elements */
+}
+
+.help-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.help-container ol {
+    padding-left: 20px;
+}
+
+.help-container li {
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Utility class to hide */
+.hidden {
+    display: none;
+}
+
+/* Overlay to dim the background when help is open */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none; /* Initially hidden */
+    z-index: 999; /* Below the help container but above everything else */
+}
